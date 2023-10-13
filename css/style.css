@@ -53,7 +53,7 @@ body {
   justify-content: center;
 }
 
-.kenmerken__logo, .header__logo, .nav__logo {
+.footer__icon, .kenmerken__logo, .header__logo, .nav__logo {
   font-size: 200%;
   border: 0.2rem solid #00c2cc;
   border-radius: 50%;
@@ -283,6 +283,29 @@ body {
   .nav__list {
     flex-direction: column;
   }
+}
+.footer {
+  padding: 5rem 0;
+  background-color: #040D12;
+  color: #eee;
+}
+
+.footer__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__listItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__icon {
+  font-size: 2rem;
+  padding: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
